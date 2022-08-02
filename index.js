@@ -6,6 +6,8 @@ import { AppRegistry } from 'react-native';
 import { name as appName } from './app.json';
 import React from 'react';
 
-import WelcomeScreen from './screen/login';
+import App from './App';
+import WelcomeScreen from './screen/welcome';
+import Login from './screen/login';
 
-AppRegistry.registerComponent(appName, () => () => <WelcomeScreen x={1} y={2} />);
+AppRegistry.registerComponent(appName, () => App);
