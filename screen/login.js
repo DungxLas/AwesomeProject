@@ -21,7 +21,7 @@ const WelcomeScreen = () => {
             style={{
                 flex: 0.2,
                 flexDirection: "column",
-                backgroundColor: 'rgba(228,233,240,255)',
+                backgroundColor: 'rgba(229,235,243,255)',
             }}
         >
             <View style={{ flex: 0.35 }} />
